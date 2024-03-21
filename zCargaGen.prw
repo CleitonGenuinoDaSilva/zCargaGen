@@ -10,7 +10,7 @@ Static cDirTmp := GetTempPath()
 /*/{Protheus.doc} zCargaGen
 Função Genérica para Carga de Dados no Protheus (Importação de Dados)
 @type function
-@author Atilio
+@author Cleiton Genuino da Silva
 @since 25/10/2015
 @version 1.0
 	@example
@@ -137,7 +137,7 @@ User Function zCargaGen()
 Return
 /*---------------------------------------------------------------------------------*
  | Func.: fVldCarac                                                                |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função que valida o caracter de separação digitado                       |
  *---------------------------------------------------------------------------------*/
@@ -153,7 +153,7 @@ Static Function fVldCarac()
 Return lRet
 /*---------------------------------------------------------------------------------*
  | Func.: fPegaArq                                                                 |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função responsável por pegar o arquivo de importação                     |
  *---------------------------------------------------------------------------------*/
@@ -179,7 +179,7 @@ Static Function fPegaArq()
 Return
 /*---------------------------------------------------------------------------------*
  | Func.: fConfirm                                                                 |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função de confirmação da tela principal                                  |
  *---------------------------------------------------------------------------------*/
@@ -416,7 +416,7 @@ Static Function fConfirm(nTipo)
 Return
 /*---------------------------------------------------------------------------------*
  | Func.: fObrigat                                                                 |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função que gera os campos obrigatórios em CSV / TXT                      |
  *---------------------------------------------------------------------------------*/
@@ -468,7 +468,7 @@ Static Function fObrigat()
 Return
 /*---------------------------------------------------------------------------------*
  | Func.: fMontaTmp                                                                |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função que monta a estrutura da tabela temporária com os erros           |
  *---------------------------------------------------------------------------------*/
@@ -501,7 +501,7 @@ Static Function fMontaTmp()
 Return
 /*---------------------------------------------------------------------------------*
  | Func.: fTelaObs                                                                 |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função de observações antes da importação                                |
  *---------------------------------------------------------------------------------*/
@@ -610,7 +610,7 @@ Return lRet
 /*/{Protheus.doc} zCargaTp
 Validação do campo Tipo na tela de observação da carga genérica
 @type function
-@author Atilio
+@author Cleiton Genuino da Silva
 @since 25/10/2015
 @version 1.0
 @return lRetorn, Retorno da rotina
@@ -635,7 +635,7 @@ User Function zCargaTp()
 Return lRetorn
 /*---------------------------------------------------------------------------------*
  | Func.: fImport                                                                  |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função responsável por fazer a importação dos dados                      |
  *---------------------------------------------------------------------------------*/
@@ -791,7 +791,7 @@ Static Function fImport()
 Return
 /*---------------------------------------------------------------------------------*
  | Func.: fTelaErro                                                                |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função que mostra os erros gerados na tela                               |
  *---------------------------------------------------------------------------------*/
@@ -836,7 +836,7 @@ Static Function fTelaErro()
 Return
 /*---------------------------------------------------------------------------------*
  | Func.: fVisErro                                                                 |
- | Autor: Daniel Atilio                                                            |
+ | Autor: Daniel Cleiton Genuino da Silva                                                            |
  | Data:  25/10/2015                                                               |
  | Desc:  Função que visualiza o erro conforme registro posicionado                |
  *---------------------------------------------------------------------------------*/
